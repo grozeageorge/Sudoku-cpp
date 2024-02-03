@@ -336,7 +336,7 @@ void Gameplay::update(sf::Time deltaTime)
 	{
 		for (int j = 0; j < 9; j++)
 		{
-			if (notBanned(i, j) && m_isSquarePressed[i][j] == true && m_isReleased == true)
+			if (notBanned(i, j) && m_isSquarePressed[i][j] == true && m_isReleased == false)
 			{
 				m_numbers[i][j].setString(m_keyChar);
 			}
