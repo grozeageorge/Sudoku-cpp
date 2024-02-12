@@ -1,2 +1,2 @@
-# Proiect SUDOKU
-# Sudoku-cpp
+# Proiect SUDOKU in SFML
+# Sudoku-cpp-SFML
