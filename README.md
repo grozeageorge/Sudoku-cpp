@@ -12,7 +12,7 @@ To make it more interesting I added a 5 minutes time limit which should make the
 
 ## Installation
 
-Visual Studio with C++ 14 is needed, which you can get from the [Microsoft page]("https://visualstudio.microsoft.com/downloads/").
+Visual Studio with C++ 14 is needed, which you can get from the [Microsoft page]("https://visualstudio.microsoft.com/downloads").
 
 After that, simply cloning the repository and opening the solution with Visual Studio then pressing F5 (to debug or run the release) should do the trick.
 
