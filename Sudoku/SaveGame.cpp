@@ -2,7 +2,7 @@
 #include "MainMenu.h"
 #include "Gameplay.h"
 
-SaveGame::SaveGame(std::shared_ptr<Context>& context) : m_context(context), m_isTextboxPressed(false), m_isSaveButtonPressed(false), m_position(0.f)
+SaveGame::SaveGame(std::shared_ptr<Context>& context) : m_context(context), m_isTextboxPressed(false), m_isSaveButtonPressed(false), m_position(0.f), m_timeSeconds(0)
 {
 	
 }

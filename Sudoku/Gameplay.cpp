@@ -348,7 +348,7 @@ void Gameplay::update(sf::Time deltaTime)
 		m_isEscapePressed = false;
 		m_timer.Pause();
 	}
-	if (checkLevel(m_numbers) || seconds == 10)
+	if (checkLevel(m_numbers) || seconds == 300)
 	{
 		singletonTimer->setTimer(seconds);
 		m_context->m_states->add(std::make_unique<GameOver>(m_context), true);

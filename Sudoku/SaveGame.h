@@ -14,7 +14,6 @@ class SaveGame : public engine::State
 {
 private:
 	float m_position;
-	char m_char;
 	int m_timeSeconds;
 	std::shared_ptr<Context> m_context;
 	sf::Text m_insertName;
@@ -26,7 +25,6 @@ private:
 
 	bool m_isTextboxPressed;
 	bool m_isSaveButtonPressed;
-	bool m_isBackspacePressed;
 
 public:
 	SaveGame(std::shared_ptr<Context>& context);
